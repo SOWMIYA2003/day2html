@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .header, .footer {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .header .logo, .footer .footer-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 1rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .main-banner {
+    position: relative;
+    height: 75vh; /* Set banner height to 75% of the viewport height */
+  }
+  
+  .main-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .promo-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .sections {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 30%;
+    text-align: left;
+    background: #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .section h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .section p {
+    font-size: 1rem;
+  }
+  
+  .section a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footer {
+    padding: 1rem;
+    background: #f8f8f8;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 2rem;
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form div {
+    margin-bottom: 1rem;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
